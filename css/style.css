@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.img img {
+  width: 130px;
+  margin-top: 200px;
+}
+.texto {
+  color: white;
+}
+
+.texto h1 {
+  font-size: 50px;
+  margin: 30px auto 10px auto;
+}
+
+.texto h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.texto h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+form,
+input {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 600px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #eee;
+  font-size: 20px;
+}
+
+form,
+.email {
+  display: block;
+  margin: -18px auto 0 auto;
+  width: 600px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #eee;
+  font-size: 20px;
+}
+
+.checking {
+  display: inline-flex;
+  margin-top: 0px;
+}
+
+.checker {
+  width: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.textoo {
+  font-size: 15px;
+  text-align: center;
+}
+
+.botao button {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 620px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #eee;
+  background-color: rgb(64, 64, 242);
+  font-size: 20px;
+  border-color: rgb(64, 64, 242);
+}
